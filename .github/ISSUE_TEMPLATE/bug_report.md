@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[BUG]"
+title: "[ BUG ]"
 labels: bug
 assignees: georgeosheanz
 
@@ -15,6 +15,7 @@ entries will contain lines starting with `panic: leveldb`. You will need to
 delete the index database to clear this, by running `website
 -reset-database`.
 
+---------------------------------------------------
 ### Include required information
 
 Please be sure to include at least:
@@ -24,3 +25,5 @@ Please be sure to include at least:
  - what happened,
  - what you expected to happen instead, and
  - any steps to reproduce the problem.
+ - screenshots to help explain the problem
+ - any other context about the problem
